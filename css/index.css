@@ -160,3 +160,27 @@ html{
     }
   }
 }
+
+
+/* Tablet na horizontal */
+@media only screen and ( max-width: 1024px ) {
+#principal {
+  width: 100%;
+  padding: 60px;
+  flex-direction: column;
+  align-items: center;
+  & main {
+    & #topo
+    flex-direction: column;
+  }
+
+}
+}
+/* Tablet na vertical*/
+@media only screen and ( max-width: 768px ) {
+
+}
+/*smartphones*/
+@media only screen and ( max-width: 60 0px ) {
+
+}
